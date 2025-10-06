@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+:root{
+    --red: #B83A2D;
+    --green: #4E6851;
+    --blue: #4F4E68;
+    --neutral_light: lightyellow;
+    --neutral_background: #dcc9a9;
+}
+
+body{
+    margin: 0;
+    padding: 20px;
+    height: 100vh;
+    background: var(--neutral_background);
+    font-family: "Prompt";
+}
+        
+#post_it{
+    position: absolute;
+    width: auto;
+    height: auto;
+    background: var(--neutral_light);
+    border: 1px solid black;
+    box-shadow: 7px 7px black;
+}
+
+#post_it .items{
+    color: black;
+    background: var(--neutral_light);
+    padding: 10px;
+}
+
+#post_it .header{
+    color: var(--neutral_light);
+    background: var(--red);
+    cursor: move;
+    padding-left: 5px;
+    border-bottom: 1px solid black;
+
+}
+
+#music{
+    position: absolute;
+    width: 300px;
+    height: 80px;
+    background: var(--neutral_light);
+    border: 1px solid black;
+    box-shadow: 7px 7px black;
+    left: 300px;
+}
+
+#music .items{
+    color: black;
+    background: var(--neutral_light);
+    padding: 10px;
+}
+
+#music .header{
+    color: lightyellow;
+    background: var(--green);
+    cursor: move;
+    padding-left: 5px;
+    border-bottom: 1px solid black;
+}
+
+#image{
+    position: absolute;
+    width: auto;
+    height: auto;
+    background: var(--neutral_light);
+    border: 1px solid black;
+    box-shadow: 7px 7px black;
+    left: 650px;
+}
+
+#image .items{
+    color: black;
+    background: var(--neutral_light);
+    padding: 10px;
+}
+
+#image .header{
+    color: lightyellow;
+    background: var(--blue);
+    cursor: move;
+    padding-left: 5px;
+    border-bottom: 1px solid black;
+}
