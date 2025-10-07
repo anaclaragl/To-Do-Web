@@ -40,6 +40,12 @@ body{
 
 }
 
+#post_it input{
+    border: 0;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+}
+
 #music{
     position: absolute;
     width: 300px;
